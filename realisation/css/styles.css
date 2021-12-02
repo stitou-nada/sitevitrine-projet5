@@ -194,12 +194,12 @@ footer{
     text-align: center;
     font-family: var(--universal-font);
 }
-.form h1 {
+.form h3 {
 
     color:#918B3D;
     margin-bottom: 30px;
-    font-size: var(--universal-font);
-    
+    font-size: 25px;
+    margin-left: -116px;
 }
 #email{
     width: 450px;
@@ -215,9 +215,9 @@ footer{
 
 }
  #subscribe-btn {
-    color: #918B3D;
+   
     color: #fff;
-    background-color: #DDDCDC;
+    background-color: #918B3D;
     width: 120px;
     height: 40px;
     border-radius: 20px;
