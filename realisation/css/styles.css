@@ -61,9 +61,4 @@ h2{
     font-family: var(--universal-font);
 
 }
-.navlist ul li {
-    margin-left: 50px;
-    display: inline;
-    color: #fff;
-    font-weight: bolder;
-}
+
