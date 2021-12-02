@@ -1,0 +1,130 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+ :root {
+
+    --universal-font:'Roboto', sans-serif;
+ }
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ 
+body { 
+
+    overflow-x: hidden;
+    background-color: whitesmoke;
+
+}
+
+
+ /* navbar starts*/
+ header {
+
+    background: url('../Images/tennis.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+
+}
+.navlist {
+
+    padding-top: 30px;
+}
+.navlist ul li { 
+    display: inline;
+    margin-left: 50px;
+    color: #fff;
+    font-family: var(--universal-font);
+    font-weight: bolder;
+
+}
+  .navlist ul li:hover {
+
+    opacity: 0.6;
+    transform: translate(20px);
+
+}
+.navlist p {
+
+    color: #fff;
+    font-family: var(--universal-font);
+    font-weight: bolder;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.navlist a {
+
+    text-decoration: none;
+}
+
+/* navbar ends */ 
+
+
+.contactus-container {
+    text-align: center;
+    font-family: var(--universal-font);
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: green;
+    
+}
+
+.form-container form  {
+ 
+text-align: center;
+margin-top: 20px;
+
+}
+
+.form-container input {
+
+    width: 550px;
+    margin-bottom: 20px;
+    height: 44px;
+    border-radius: 7px;
+    border: solid 0.5px grey;
+    padding-left: 20px;
+    
+
+}
+
+.form-container #bt {
+
+    width: 130px;
+    padding-left: 0px;
+    border-radius: 7px;
+    color: #fff;
+    font-family: var(--universal-font);
+    background-color: green;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.form-container textarea {
+    resize: none;
+    width: 550px;
+    height: 200px;
+    padding-left: 20px;
+    opacity: 0.6;
+    padding-top: 10px;
+    border-radius: 7px;
+    
+}
+
+/* form end */
+
+@media only screen and (min-width: 48em) {
+
+.navlist ul li{
+    
+    margin-top: 10px;
+}
+
+        
+}

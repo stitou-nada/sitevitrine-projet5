@@ -1,0 +1,69 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+ :root {
+
+    --universal-font:'Roboto', sans-serif;
+ }
+
+header{
+    background: url('../images/tennis.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 600px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+
+.home{
+    color:#B6BC00;
+}
+.about{
+    color: white;
+}
+.contact{
+    color: white; 
+}
+
+.contact:hover {
+
+    opacity: 0.6;
+}
+.about:hover{
+
+    opacity: 0.6;
+}
+.home:hover {
+
+    opacity: 0.6;
+}
+h1{
+    color: #ffffff;
+    margin-left: 1095px;
+    font-size: 90px;
+
+}
+h2{
+    color:#B6BC00;
+    margin-left: 1279px;
+    margin-top: -161px;
+    font-size: 60px; 
+}
+.navlist{
+    padding-top: 30px;
+    font-family: var(--universal-font);
+
+}
+.navlist ul li {
+    margin-left: 50px;
+    display: inline;
+    color: #fff;
+    font-weight: bolder;
+}
