@@ -54,3 +54,127 @@ a{
    color: #fff;
    font-weight: bolder;
 }
+.about-us{
+   width: 100%;
+   padding: 78px 0px;
+   background-color: rgb(255, 255, 255);
+ }
+ .about-us img{
+   height: auto;
+   width: 420px;
+ }
+ .about-text{
+   width: 550px;
+ }
+ .main{
+   width: 1130px;
+   max-width: 95%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+ .about-text h1{
+   color: green ;
+   font-size: 80px;
+   text-transform: capitalize;
+   margin-bottom: 20px;
+ }
+ .about-text h5{
+   color: rgb(14, 113, 170);
+   font-size: 25px;
+   text-transform: capitalize;
+   margin-bottom: 25px;
+   letter-spacing: 2px;
+ }
+ .about-text p{
+   color: black;
+   letter-spacing: 1px;
+   line-height: 28px;
+   font-size: 18px;
+   margin-bottom: 45px;
+ }
+ button{
+   background: green ;
+   color: aliceblue;
+   text-decoration: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 13px 30px;
+   border-radius: 30px;
+ 
+ 
+ }
+ .ball{
+ 
+   display:flex ;
+   flex-wrap: wrap;
+ }
+ .features{
+
+   width: 100%;
+   font-family: var(--universal-font);
+   
+}
+.fram {
+
+   margin-top: 200px;
+   width: 90%;
+   text-align: center;
+}
+
+.fram p{
+
+   margin-top: 20px;
+
+}
+
+ footer{
+
+   width: 100%;
+   height: 300px;
+   background-color: rgb(214, 214, 214);
+}
+  
+.form {
+
+   margin-top: 150px;
+   text-align: center;
+   font-family: var(--universal-font);
+}
+.form h3 {
+
+   color:green;
+   margin-bottom: 30px;
+   font-size: 25px;
+   margin-left: -116px;
+}
+#email{
+   width: 450px;
+   height: 50px;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   padding-left: 20px;
+   border-style: none;
+   color: #fff;
+
+}
+#subscribe-btn {
+  
+   color: #fff;
+   background-color: green;
+   width: 120px;
+   height: 40px;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   cursor: pointer;
+   border-style: none;
+   margin-left: 20px;
+   
+}
