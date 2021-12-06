@@ -1,51 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+
+   --universal-font:'Roboto', sans-serif;
+}
+
+header{
+   background: url('../images/tennis.jpg');
+   background-repeat: no-repeat;
+   width: 100%;
+   background-size: cover;
+   height: 400px;
+}
+
 *{
-    font-family: 'roboto', Arial, Helvetica, sans-serif;
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+   padding: 0px;
+   margin: 0px;
 }
-
-header {
-    display: flex;
-    background-color:black;
-    margin-left: 3rem;
-    margin-right: 1rem;
-    padding: 2rem 2rem;
-  }
-
-ul li {
-      list-style: none;
-      display: inline;
-      padding: 20px;
-  }
-
 a{
-      color: white;
-      text-decoration: none;
-      cursor: pointer;
-  }
-
-section{
-      margin-top: 5%;
-      text-align: center;
-    }
-
-.product-1{
-    margin-top: 3%;
-    margin-bottom: 4%;
-    margin-left: 20%;
+   text-decoration: none;
 }
 
-.media-image{
-    width: 250px;
+.home{
+   color:white;
+}
+.about{
+   color: white;
+}
+.contact{
+   color: white; 
 }
 
-.name-product {
-    margin-bottom: 3%;
-    font-size: 30px;
-    color: yellowgreen;
+.contact:hover {
+
+   opacity: 0.6;
+}
+.about:hover{
+
+   opacity: 0.6;
+}
+.home:hover {
+
+   opacity: 0.6;
+}
+.navlist{
+   padding-top: 30px;
+   font-family: var(--universal-font);
+
+}
+.navlist ul li {
+   margin-left: 50px;
+   display: inline;
+   color: #fff;
+   font-weight: bolder;
+}
+.about-us{
+   width: 100%;
+   padding: 78px 0px;
+   background-color: rgb(255, 255, 255);
+ }
+ .about-us img{
+   height: auto;
+   width: 420px;
+ }
+ .about-text{
+   width: 550px;
+ }
+ .main{
+   width: 1130px;
+   max-width: 95%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+ 
+ .about-text h5{
+   color: rgb(14, 170, 74);
+   font-size: 25px;
+   text-transform: capitalize;
+   margin-bottom: 25px;
+   letter-spacing: 2px;
+ }
+ .about-text p{
+   color: black;
+   letter-spacing: 1px;
+   line-height: 28px;
+   font-size: 18px;
+   margin-bottom: 45px;
+ }
+ 
+ .features{
+
+   width: 100%;
+   font-family: var(--universal-font);
+   
+}
+.fram {
+
+   margin-top: 200px;
+   width: 90%;
+   text-align: center;
 }
 
-.P-discription{
-    font-size: 20px;
+.fram p{
+
+   margin-top: 20px;
+
+}
+
+ footer{
+
+   width: 100%;
+   height: 300px;
+   background-color: rgb(214, 214, 214);
+}
+  
+.form {
+
+   margin-top: 150px;
+   text-align: center;
+   font-family: var(--universal-font);
+}
+.form h3 {
+
+   color:green;
+   margin-bottom: 30px;
+   font-size: 25px;
+   margin-left: -116px;
+}
+#email{
+   width: 450px;
+   height: 50px;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   padding-left: 20px;
+   border-style: none;
+   color: #fff;
+
+}
+#subscribe-btn {
+  
+   color: #fff;
+   background-color: green;
+   width: 120px;
+   height: 40px;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   cursor: pointer;
+   border-style: none;
+   margin-left: 20px;
+   
 }
